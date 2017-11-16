@@ -30,7 +30,7 @@ class MainActivity : AppCompatActivity() {
     override fun onResume() {
         super.onResume()
         this.mainWebView.settings.javaScriptEnabled = true
-        this.mainWebView.webViewClient = WebViewClient()
+        this.mainWebView.webViewClient = PajatoWebViewClient()
 
     }
 
